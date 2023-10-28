@@ -68,6 +68,7 @@ a{
 .row{
     display: flex;
     flex-wrap: wrap;
+    margin-top: 110px;
 }
 .section{
     padding: calc(var(--header-height) + 20px) 0;
@@ -159,13 +160,11 @@ a{
 /* NAV */
 .l-header{
     width: 100%;
-    height: var(--header-height);
     background-color: rgba(255, 255, 255, 0.4);
-    /* position: fixed; */
-    /* top: 0; */
-    /* left: 0; */
-    /* z-index: 999999; */
-    transition: all 400ms ease;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999999;
 }
 .navbar{
     justify-content: space-between;
