@@ -613,7 +613,7 @@ a{
         font-size: var(--normal-font-size);
         font-weight: var(--font-bold);
         text-transform: capitalize;
-        color: var(--black-color);
+        color: #d6a98b;
         transition: all 400ms ease;
         position: relative;
     }
