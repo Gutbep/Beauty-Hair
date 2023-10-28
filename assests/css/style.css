@@ -603,10 +603,12 @@ a{
         display: flex;
         align-items: center;
         padding: 0;
+        font-size: var(--normal-font-size);
         font-weight: var(--font-bold);
+        text-transform: capitalize;
         color: var(--black-color);
-        position: relative;
         transition: all 400ms ease;
+        position: relative;
     }
     .nav__item:not(:last-child){
         margin-right: var(--mb-2-5);
